@@ -24,13 +24,15 @@
     </header>
     
     <sectio id="profile">
-        <div class="profile-phtoto">
-            <img src="./assets/profile-photo.png" alt="Profile Photo">
+        <div class="profile-phtoto-box">
+            <img class="profile-photo" src="./assets/profile-photo.png" alt="Profile Photo">
         </div>
         <div class="profile-info">
-            <p>Hello, I'm</p>
-            <h1>Sara Assara</h1>
-            <h2>Psychologist and Counselor</h2>
+            <div class="profile-text-box">
+                <p>Hello, I'm</p>
+                <h1>Sara Assara</h1>
+                <h2>Psychologist and Counselor</h2>
+            </div>
             <div class="profile-buttons">
                 <button class="download-cv-button btn" onclick="window.open('./assets/cv.pdf')">
                     Download CV
@@ -39,16 +41,14 @@
                     Contact Info
                 </button>
             </div>
-            <div class="social-media-buttons">
-                <button class="facebook-button btn">
-                    <img src="./assets/facebook.png" alt="Facebook">
-                </button>
-                <button class="instagram-button btn">
-                    <img src="./assets/instagram.png" alt="Instagram">
-                </button>
-                <button class="linkedin-button btn">
-                    <img src="./assets/linkedin.png" alt="LinkedIn">
-                </button>
+            <div class="social-media-icon-box">
+                
+                <img class="social-media-icon icon"  src="./assets/facebook.png" alt="Facebook" onclick="location.href='https://facebook.com/'">
+                
+                <img class="social-media-icon icon" src="./assets/instagram.png" alt="Instagram" onclick="location.href='https://instagram.com/'">
+               
+                <img class="social-media-icon icon" src="./assets/linkedin.png" alt="LinkedIn" onclick="location.href='https://github.com/Sanid-Assara/sara-portofolio'">
+
             </div>    
         </div>
             
@@ -64,14 +64,14 @@
             </div>
             <div class="about-me-info">
                 <div class="experience-education-boxes">
-                    <div class="experience-box">
-                        <img src="./assets/experience.png" alt="Experience icon">
+                    <div class="about-me-mini-box">
+                        <img class="icon" src="./assets/experience.png" alt="Experience icon">
                         <h2>Experience</h2>
                         <p>3+ years</p>
                         <p>Psychotherapist</p>
                     </div>
-                    <div class="education-box">
-                        <img src="./assets/education.png" alt="Education icon">
+                    <div class="about-me-mini-box">
+                        <img class="icon" src="./assets/education.png" alt="Education icon">
                         <h2>Education</h2>
                         <p>B.Sc. Bachelors Degree</p>
                         <p>University of Novi Sad</p>
@@ -94,28 +94,28 @@
                 <h2 class="skill-title">Languages</h2>
                 <div class="skill-wrapper">
                     <div class="skill-name-box">
-                        <img src="./assets/checkmark.png" alt="checkmark- icon">
+                        <img class="icon" src="./assets/checkmark.png" alt="checkmark- icon">
                         <div class="skill-name-level">
                             <h3 class="skill-name">Serbian</h3>
                             <p class="skill-level">Native</p>
                         </div>
                     </div>
                     <div class="skill-name">
-                        <img src="./assets/checkmark.png" alt="checkmark- icon">
+                        <img class="icon" src="./assets/checkmark.png" alt="checkmark- icon">
                         <div class="skill-name-level">
                             <h3 class="skill-name">English</h3>
                             <p class="skill-level">Advanced</p>
                         </div>
                     </div>
                     <div class="skill-name">
-                        <img src="./assets/checkmark.png" alt="checkmark- icon">
+                        <img class="icon" src="./assets/checkmark.png" alt="checkmark- icon">
                         <div class="skill-name-level">
                             <h3 class="skill-name">German</h3>
                             <p class="skill-level">Advanced</p>
                         </div>
                     </div>
                     <div class="skill-name">
-                        <img src="./assets/checkmark.png" alt="checkmark- icon">
+                        <img class="icon" src="./assets/checkmark.png" alt="checkmark- icon">
                         <div class="skill-name-level">
                             <h3 class="skill-name">Arabic</h3>
                             <p class="skill-level">Basic</p>
@@ -127,42 +127,42 @@
                 <h2 class="skill-title">Soft Skills</h2>
                 <div class="skill-wrapper">
                     <div class="skill-name-box">
-                        <img src="./assets/checkmark.png" alt="checkmark- icon">
+                        <img class="icon" src="./assets/checkmark.png" alt="checkmark- icon">
                         <div class="skill-name-level">
                             <h3 class="skill-name">Emotional intelligence</h3>
                             <p class="skill-level">Native</p>
                         </div>
                     </div>
                     <div class="skill-name-box">
-                        <img src="./assets/checkmark.png" alt="checkmark- icon">
+                        <img class="icon" src="./assets/checkmark.png" alt="checkmark- icon">
                         <div class="skill-name-level">
                             <h3 class="skill-name">Time mangment</h3>
                             <p class="skill-level">Advanced</p>
                         </div>
                     </div>
                     <div class="skill-name-box">
-                        <img src="./assets/checkmark.png" alt="checkmark- icon">
+                        <img class="icon" src="./assets/checkmark.png" alt="checkmark- icon">
                         <div class="skill-name-level">
                             <h3 class="skill-name">Critical thinking</h3>
                             <p class="skill-level">Advanced</p>
                         </div>
                     </div>
                     <div class="skill-name-box">
-                        <img src="./assets/checkmark.png" alt="checkmark- icon">
+                        <img class="icon" src="./assets/checkmark.png" alt="checkmark- icon">
                         <div class="skill-name-level">
                             <h3 class="skill-name">Active listening</h3>
                             <p class="skill-level">Advanced</p>
                         </div>
                     </div>
                     <div class="skill-name-box">
-                        <img src="./assets/checkmark.png" alt="checkmark- icon">
+                        <img class="icon" src="./assets/checkmark.png" alt="checkmark- icon">
                         <div class="skill-name-level">
                             <h3 class="skill-name">Communication</h3>
                             <p class="skill-level">Advanced</p>
                         </div>
                     </div>
                     <div class="skill-name-box">
-                        <img src="./assets/checkmark.png" alt="checkmark- icon">
+                        <img class="icon" src="./assets/checkmark.png" alt="checkmark- icon">
                         <div class="skill-name-level">
                             <h3 class="skill-name">Problem-solving</h3>
                             <p class="skill-level">Advanced</p>
