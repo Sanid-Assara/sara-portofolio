@@ -9,9 +9,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    
 }
 
 html {
@@ -86,13 +84,12 @@ a:hover {
 
   section {
     padding-top: 4vh;
-    height: 96vh;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
   }
 
-  /* Profile Section*/
+  /* Profile Section */
 
   #profile {
     display: flex;
@@ -199,12 +196,13 @@ a:hover {
     margin: 1rem 0 0;
   }
 
-  /* About Section*/
+  /* About Section */
 
 #about {
   display: flex;
   flex-direction: column;
-  align-items: center;}
+  align-items: center;
+}
 
 #about h1 {
   font-size: 3rem;
@@ -246,7 +244,7 @@ a:hover {
   padding: 1.5rem;
   text-align: center;
   width: 150px;
-  height: 150px;
+  height: 180px;
 }
 
 .about-me-mini-box h2 {
@@ -259,3 +257,54 @@ a:hover {
   text-align: left;
 }
 
+ /* Skills Section */
+#skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ #skills h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.skill-boxes-wrapper {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.languages-box,
+.soft-skills-box {
+  display: flex;
+  flex-direction: column;
+  border: 0.1rem solid rgb(163, 163, 163);
+  border-radius: 2rem;
+  padding: 1rem;
+  text-align: center;
+  width: 480px;
+  height: 315px;
+}
+
+.skill-title {
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.skill-boxes-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-around;
+}
+
+.skill-mini-box {
+    display: flex;
+    width: 14rem;
+    justify-content: space-around;
+}
