@@ -1,11 +1,75 @@
+ @media screen and (max-width: 1400px) {
 
+
+}
   
-  @media screen and (max-width: 1200px) {
-    #desktop-nav {
-      display: none;
-    }
-    #hamburger-nav {
-      display: flex;
-    }
+  
+  
+@media screen and (max-width: 1200px) {
+   
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid gold;
+    padding: 0 6rem 0 12rem;
+
+  }
+
+  .hamburger-menu {
+    border: 2px solid gold;
+  }
+
+  .skill-boxes-wrapper {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+  } 
+    
     
   }
+
+  @media screen and (max-width: 950px) {
+    
+    .about-me-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4rem;
+      margin: 0.5rem 0;
+    }
+  }  
+
+  @media screen and (max-width: 600px) {
+    
+    #hamburger-nav {
+      padding: 0 3rem 0 3rem;
+
+    }
+
+    .skill-boxes-container {
+      display: flex;
+      flex-wrap: wrap;
+      text-align: initial;
+      min-width: fit-content;
+      
+  }
+
+  #contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: fit-content;
+  }
+
+    
+  }
+
+  @media screen and (max-width: 450px) {
+   
+  }
+    

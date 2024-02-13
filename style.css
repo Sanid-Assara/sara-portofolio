@@ -9,8 +9,15 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    
+    display: flex;
+    flex-direction: column;
+    border: 2px solid gold;
+ 
 }
+
+
+
+
 
 html {
     scroll-behavior: smooth;
@@ -20,10 +27,7 @@ p {
     color: rgb(85, 85, 85);
 }
 
-img {
-    height: 50px;
-    width: 50px;
-}
+
 
 /*Transition*/
 
@@ -93,9 +97,10 @@ a:hover {
 
   #profile {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 5rem;
-    height: 80vh;
+    margin-bottom: 4rem;
   }
 
   .profile-photo {
@@ -305,7 +310,6 @@ a:hover {
     gap: 0.1rem;
     min-width: 500px;
     row-gap: 1.5rem;
-
 }
 
 
@@ -326,6 +330,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-self: center;
 }
 
 
@@ -339,6 +344,7 @@ a:hover {
 .contact-box {
 
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   border-radius: 2rem;
   border:  0.1rem solid;
