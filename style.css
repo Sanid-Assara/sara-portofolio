@@ -10,9 +10,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     display: flex;
-    flex-direction: column;
-    border: 2px solid gold;
- 
+    flex-direction: column; 
 }
 
 

@@ -13,14 +13,10 @@
   #hamburger-nav {
     display: flex;
     justify-content: space-between;
-    border: 2px solid gold;
     padding: 0 6rem 0 12rem;
-
   }
 
-  .hamburger-menu {
-    border: 2px solid gold;
-  }
+  
 
   .skill-boxes-wrapper {
     display: flex;
