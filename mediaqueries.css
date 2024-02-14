@@ -38,6 +38,7 @@
       gap: 4rem;
       margin: 0.5rem 0;
     }
+
   }  
 
   @media screen and (max-width: 600px) {
@@ -52,6 +53,10 @@
       flex-wrap: wrap;
       text-align: initial;
       min-width: fit-content;
+    }
+
+    
+
       
   }
 
@@ -63,9 +68,45 @@
   }
 
     
-  }
+
 
   @media screen and (max-width: 450px) {
    
+    .profile-photo {
+      width: 190px;
+      height: 190px;
+  }
+
+    #profile {
+      gap: 1rem;
+  }
+    
+    .head-title {
+      font-size: 2rem;
+    }
+
+    h2 {
+      font-size: 1.25rem
+    }
+
+    .contact-mini-box a {
+      font-size: 1rem;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+
+  .about-me-picture img {
+    height: 190px;
+    width: 190px;
+    border-radius: 2rem;
+  }
+
+  .experience-education-boxes {
+    flex-wrap: wrap;
+  }
+
+    
   }
     
