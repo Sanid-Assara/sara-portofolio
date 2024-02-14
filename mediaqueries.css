@@ -107,6 +107,14 @@
     flex-wrap: wrap;
   }
 
-    
+  .about-me-text {
+    min-width: 310px;
   }
+    
+  .experience-education-boxes {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+}
     
